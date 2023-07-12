@@ -1,5 +1,26 @@
 # Changelog
 
+## \[2.0.0-alpha.11]
+
+### New Features
+
+- [`84c41597`](https://www.github.com/tauri-apps/tauri/commit/84c4159754b2e59244211ed9e1fc702d851a0562)([#6394](https://www.github.com/tauri-apps/tauri/pull/6394)) Add `App::primary_monitor`, `App::available_monitors`, `AppHandle::primary_monitor`, and `AppHandle::available_monitors`
+- [`2a000e15`](https://www.github.com/tauri-apps/tauri/commit/2a000e150d02dff28c8b20ad097b29e209160045)([#7235](https://www.github.com/tauri-apps/tauri/pull/7235)) Added `Window::navigate`.
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.0.0-alpha.7`
+- Upgraded to `tauri-runtime@0.13.0-alpha.7`
+- Upgraded to `tauri-runtime-wry@0.13.0-alpha.7`
+- Upgraded to `tauri-macros@2.0.0-alpha.7`
+- Upgraded to `tauri-build@2.0.0-alpha.7`
+- [`d1a6e2f3`](https://www.github.com/tauri-apps/tauri/commit/d1a6e2f33326161a78a9a72bd9320dcb1b1f9710)([#7252](https://www.github.com/tauri-apps/tauri/pull/7252)) Update `state` to v0.6.
+
+### Breaking Changes
+
+- [`fd5dc788`](https://www.github.com/tauri-apps/tauri/commit/fd5dc788d10b2a048e0804b5415b84ae8f9152ea)([#7352](https://www.github.com/tauri-apps/tauri/pull/7352)) -   Removed `tauri::api::file` and `tauri::api::dir` modules, use `std::fs` instead.
+  - Removed `tauri::api::version` module, use `semver` crate instead.
+
 ## \[2.0.0-alpha.10]
 
 ### New Features

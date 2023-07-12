@@ -1,5 +1,15 @@
 # Changelog
 
+## \[2.0.0-alpha.7]
+
+### New Features
+
+- [`74b1f4fc`](https://www.github.com/tauri-apps/tauri/commit/74b1f4fc6625d5b4f9b86f70e4eebd6551c61809)([#7384](https://www.github.com/tauri-apps/tauri/pull/7384)) Add `WindowEffect::MicaDark` and `WindowEffect::MicaLight`
+
+### Security fixes
+
+- [`43c6285e`](https://www.github.com/tauri-apps/tauri/commit/43c6285e9006fb84066461d57fe09ea8db76d636)([#7359](https://www.github.com/tauri-apps/tauri/pull/7359)) Changed HTML implementation from unmaintained `kuchiki` to `kuchikiki`.
+
 ## \[2.0.0-alpha.6]
 
 ### New Features

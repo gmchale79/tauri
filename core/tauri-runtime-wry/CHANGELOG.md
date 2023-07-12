@@ -1,5 +1,17 @@
 # Changelog
 
+## \[0.13.0-alpha.7]
+
+### New Features
+
+- [`84c41597`](https://www.github.com/tauri-apps/tauri/commit/84c4159754b2e59244211ed9e1fc702d851a0562)([#6394](https://www.github.com/tauri-apps/tauri/pull/6394)) Added `primary_monitor` and `available_monitors` to `Runtime` and `RuntimeHandle`.
+- [`2a000e15`](https://www.github.com/tauri-apps/tauri/commit/2a000e150d02dff28c8b20ad097b29e209160045)([#7235](https://www.github.com/tauri-apps/tauri/pull/7235)) Implement navigate method
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.0.0-alpha.7`
+- Upgraded to `tauri-runtime@0.13.0-alpha.7`
+
 ## \[0.13.0-alpha.6]
 
 ### New Features
